@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+
+	<dict>
+		<key>name</key>
+		    <string>UsertwelveHr</string>
+		<key>type</key>
+		    <string>switch</string>
+		<key>label</key>
+		    <string>Use 12h Time</string>
+		<key>default</key>
+		    <true/>
+	</dict>
+
+	<dict>
+		<key>name</key>
+		    <string>UsershowSeconds</string>
+		<key>type</key>
+		    <string>switch</string>
+		<key>label</key>
+		    <string>Display Seconds</string>
+		<key>default</key>
+		    <true/>
+	</dict>
+
+</array>
+</plist>

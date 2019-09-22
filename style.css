@@ -1,0 +1,93 @@
+@font-face {
+    font-family: San-Francisco;
+    src: url("SF.ttf");
+}
+body {
+    font-family: San-Francisco, helvetica neue;
+    font-weight: 200;
+    font-size: 14px;
+    color: white;
+}
+#container {
+    margin: 0 auto;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: solid 10px rgba(25, 25, 25, .7);
+}
+#inner {
+    margin: 0 auto;
+    position: relative;
+    width: 190px;
+    height: 190px;
+    top: 5px;
+    border-radius: 50%;
+    background-color: rgba(25, 25, 25, .7);
+}
+#hour {
+    line-height: 1.5em;
+    border-right: solid 2px white;
+    height: 75px;
+    width: 76px;
+    position: relative;
+    color: white;
+    font-size: 45px;
+    top: -137px;
+    left: 21px;
+    text-align: center;
+}
+#minute {
+    height: 149px;
+    width: 120px;
+    position: relative;
+    color: white;
+    font-size: 45px;
+    top: -205px;
+    left: 110px;
+}
+#second {
+    position: relative;
+    top: -495px;
+    left: -1.2px;
+    height: 197px;
+    width: 197px;
+}
+p.progressbar-text {
+    display: none !important;
+}
+path {
+    stroke-width: 2.68px;
+    opacity: .7;
+}
+svg {
+    padding: 3px;
+}
+#day {
+    position: relative;
+    height: 35px;
+    width: 45px;
+    top: -310px;
+    left: 52px;
+    line-height: 2.5em;
+    border-right: solid 2px white;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+#date {
+    position: relative;
+    height: 30px;
+    width: 65px;
+    top: -345px;
+    left: 120px;
+    line-height: 2.5em;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+#am-pm {
+    display: none;
+    position: relative;
+    top: -386px;
+    left: 165px;
+    font-size: 12px;
+
